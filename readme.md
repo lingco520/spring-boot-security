@@ -1,0 +1,1 @@
+spring boot构建，集成了mybatis3.2.7,mysql,security，菜单权限通过数据库查询获取。
