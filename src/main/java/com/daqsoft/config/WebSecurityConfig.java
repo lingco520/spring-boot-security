@@ -41,7 +41,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
                 .formLogin()
                 .loginPage("/login")
                 .failureUrl("/login?error")
-                .permitAll() //登录页面用户任意访问
+                .permitAll() //登录页面用户任意访问，不需要权限的页面
                 .and()
                 .logout().permitAll(); //注销行为任意访问
         http.addFilterBefore(myFilterSecurityInterceptor, FilterSecurityInterceptor.class);
