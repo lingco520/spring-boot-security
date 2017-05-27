@@ -24,6 +24,8 @@ public class HomeController {
 	}
 	@RequestMapping("/admin")
 	public Object hello(){
-		return "hello admin";
+
+
+	    return "hello admin";
 	}
 }
